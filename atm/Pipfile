@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+
+[packages]
+tkinter = "*"
+pyinstaller = "*"
+tkmessagebox = "*"
+pycryptodome = "*"
+requests = "*"
+flask = "*"
+ttkthemes = "*"
+pyotp = "*"
+qrcode = {extras = ["pil"],version = "*"}
+
+[requires]
+python_version = "3.8"
